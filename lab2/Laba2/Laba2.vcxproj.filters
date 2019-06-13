@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\laba5">
+      <UniqueIdentifier>{cd40a048-953c-459f-8fa3-8ad6009acfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\laba5">
+      <UniqueIdentifier>{0dcff519-0797-4c46-ad17-45175d5e707e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\laba4">
+      <UniqueIdentifier>{b2868c55-1f92-4816-a53e-9f608c1a8948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\laba4">
+      <UniqueIdentifier>{0cba3b99-94e5-4086-9ee9-529e5e167f32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="laba5.h">
+      <Filter>Файлы заголовков\laba5</Filter>
+    </ClInclude>
+    <ClInclude Include="laba4.h">
+      <Filter>Файлы заголовков\laba4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Laba2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="laba5.cpp">
+      <Filter>Исходные файлы\laba5</Filter>
+    </ClCompile>
+    <ClCompile Include="laba4.cpp">
+      <Filter>Исходные файлы\laba4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
